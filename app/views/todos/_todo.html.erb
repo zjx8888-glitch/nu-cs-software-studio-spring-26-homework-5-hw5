@@ -4,4 +4,8 @@
     <%= todo.description %>
   </p>
 
+  <p>
+    <strong>Category:</strong>
+    <%= todo.category.presence || "None" %>
+  </p>
 </div>

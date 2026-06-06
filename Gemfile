@@ -61,3 +61,11 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "rspec-rails", "~> 8.0", groups: [:development, :test]
+
+gem "cucumber-rails", "~> 4.0", groups: [:development, :test], require: false
+
+gem "simplecov", "~> 0.22.0", group: :test, require: false
+
+gem "database_cleaner-active_record", "~> 2.2", group: :test
